@@ -11,10 +11,10 @@ from .exceptions import BinanceAPIException, BinanceRequestException, BinanceWit
 
 class Client(object):
 
-    API_URL = 'https://api.binance.{}/api'
+    API_URL = 'https://www.trbinance.{}/api'
     WITHDRAW_API_URL = 'https://api.binance.{}/wapi'
     MARGIN_API_URL = 'https://api.binance.{}/sapi'
-    WEBSITE_URL = 'https://www.binance.{}'
+    WEBSITE_URL = 'https://www.trbinance.{}'
     FUTURES_URL = 'https://fapi.binance.{}/fapi'
     FUTURES_COIN_URL = "https://dapi.binance.{}/dapi"
     PUBLIC_API_VERSION = 'v1'
